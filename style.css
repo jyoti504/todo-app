@@ -2,20 +2,15 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
 }
-ul {
-  list-style: none;
-  padding: 0;
-}
-li {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+#todoList li {
   margin: 5px 0;
-  padding: 5px;
-  background: #f0f0f0;
+  list-style: none;
 }
+
 button {
-  background: blue;
+  margin-left: 5px;
+  background:blue;
   color: white;
   border: none;
   padding: 5px 10px;
